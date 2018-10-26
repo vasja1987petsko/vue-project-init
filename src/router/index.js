@@ -5,19 +5,19 @@ import HelloWorld from 'components/HelloWorld'
 // import HomePage from '@/components/HomePage/HomePage.vue'
 import HomePage from 'components/HomePage/HomePage.vue'
 
-Vue.use(Router)
+Vue.use( Router )
 
-export default new Router({
-  routes: [
-    {
-      path: '/hello',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
-    {
-      path: '/',
-      name: 'HomePage',
-      component: HomePage
-    }
-  ]
-})
+export default new Router( {
+    routes: [
+        {
+            path: '/hello',
+            name: 'HelloWorld',
+            component: HelloWorld
+        },
+        {
+            path: '/',
+            name: 'HomePage',
+            component: HomePage
+        }
+    ]
+} )
