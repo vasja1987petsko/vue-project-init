@@ -1,6 +1,11 @@
 <template>
     <div class="home-page">
         <h1>{{ msg }}</h1>
+        <ul v-if="arr.length">
+            <li v-for="item in arr" :key="item.id">
+                {{item.username}}
+            </li>
+        </ul>
     </div>
 </template>
 
