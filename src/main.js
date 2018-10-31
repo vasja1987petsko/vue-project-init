@@ -6,6 +6,9 @@ import Vue from 'vue'
 //import 'bootstrap/dist/css/bootstrap.css' //if don't use  in main.scss bootstrap.css
 //import 'bootstrap-vue/dist/bootstrap-vue.css' //if need BootstrapVue
 
+import './assets/css/_variables-bootstrap.scss';
+import 'bootstrap/scss/bootstrap.scss';
+
 import App from './App'
 import router from './router'
 import store from './store'
