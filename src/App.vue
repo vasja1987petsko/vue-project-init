@@ -10,4 +10,4 @@
     }
 </script>
 
-<style lang="scss" src="./assets/css/main.scss"></style>
+<style lang="scss" src="./assets/style/main.scss"></style>
