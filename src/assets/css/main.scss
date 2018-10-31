@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 //if don't use  bootstrap in main.js
 //@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+//or use
+// @import 'bootstrap/dist/css/bootstrap.css'
+@import "./_variables-bootstrap.scss";
+@import 'bootstrap/scss/bootstrap.scss';
+
 @import './_variables.scss';
-//or import different files from bootstrap and use variables above(if don't use  bootstrap in main.js)
 @import './custom.scss';
